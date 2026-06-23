@@ -90,9 +90,9 @@ Model terbaik:
 maternal-health-risk/
 │
 ├── pages/
-│    └── 1_visualisasi.py
-│    └── 2_prediksi.py
-│    └── 3_compare_model.py
+|   └── 1_visualisasi.py
+|   └── 2_prediksi.py
+|   └──3_compare_model.py
 │
 ├── data/
 │   └── maternal_health_risk_dataset.csv
@@ -104,4 +104,4 @@ maternal-health-risk/
 │
 ├── app.py
 ├── requirements.txt
-└── readme.md
+└── README.md
