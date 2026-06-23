@@ -5,16 +5,16 @@ import plotly.express as px
 
 # Load kedua model
 ann_model = joblib.load(
-    r"C:\Users\marien\Downloads\maternal_health_risk_app\myproject\models\ann_model.joblib"
+    "models/ann_model.joblib"
 )
 
 # Load scaler
 scaler = joblib.load(
-    r"C:\Users\marien\Downloads\maternal_health_risk_app\myproject\models\scaler.joblib"
+    "models/scaler.joblib"
 )
 
 # rf_model = joblib.load(
-#     r"C:\Users\marien\Downloads\maternal_health_risk_app\myproject\models\best_random_forest_model.joblib"
+#     "models/best_random_forest_model.joblib"
 # )
 
 model = ann_model

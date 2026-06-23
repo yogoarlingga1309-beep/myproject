@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
 # ==========================
 # CONFIG
 # ==========================
@@ -15,7 +16,7 @@ st.set_page_config(
 # ==========================
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\marien\Downloads\maternal_health_risk_app\myproject\data\maternal_health_risk_dataset.csv")
+    df = pd.read_csv('https://raw.githubusercontent.com/yogoarlingga1309-beep/myproject/refs/heads/main/data/maternal_health_risk_dataset.csv')
     return df
 
 df = load_data()

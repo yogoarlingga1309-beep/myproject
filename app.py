@@ -98,7 +98,7 @@ elif menu == "📊 Visualisasi":
 
 elif menu == "📈 Perbandingan Model":
 
-    with open("3_compare_model.py", encoding="utf-8") as f:
+    with open("2_compare_model.py", encoding="utf-8") as f:
         exec(f.read())
         
 # =====================================
@@ -107,6 +107,6 @@ elif menu == "📈 Perbandingan Model":
 
 elif menu == "🔮 Prediksi":
 
-    with open("2_prediksi.py", encoding="utf-8") as f:
+    with open("3_prediksi.py", encoding="utf-8") as f:
         exec(f.read())
 
