@@ -89,10 +89,10 @@ Model terbaik:
 ```text
 maternal-health-risk/
 │
-├── app.py
-├── 1_visualisasi.py
-├── 2_prediksi.py
-├── 3_compare_model.py
+├── pages/
+│    └── 1_visualisasi.py
+│    └── 2_prediksi.py
+│    └── 3_compare_model.py
 │
 ├── data/
 │   └── maternal_health_risk_dataset.csv
@@ -102,5 +102,6 @@ maternal-health-risk/
 │   ├── best_random_forest_model.joblib
 │   └── scaler.joblib
 │
+├── app.py
 ├── requirements.txt
 └── README.md
